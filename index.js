@@ -2,6 +2,7 @@ const Circle=require("./lib/Circle")
 const inquirer=require("inquirer")
 const fs=require("fs")
 const Square=require("./lib/Square")
+const Triangle=require("./lib/Triangle")
 
 
 inquirer
@@ -26,21 +27,24 @@ inquirer
     choices:["blue","yellow","red","black","white"]
 
 }])
-.then(Response=>{
+.then(response=>{
 
-    if(Response.shape==="circle"){
+    if(response.shape==="circle"){
         const circle = new Circle()
         circle.setColor(response.textColor)
         circle.setText(response.text)
         circle.setShapeColor(response.shapeColor)
-        fs.writeFile("./examples/logo.svg")
-        console.log("generated logo.svg")
-    }else if(Response.shape==="square"){
-        const Square = new Square()
+        fs.writeFile("./examples/logo.svg", circle.render(),(err)=>{
+            console.log("Generated logo.svg")
+        })
+
+    }else if(response.shape==="square"){
+        const square = new Square()
         square.setColor(response.textColor)
         square.setText(response.text)
         square.setShapeColor(response.shapeColor)
-
+        fs.writeFile("./examples/logo.svg", square.render(),(err)=>{
+            console.log("Generated logo.svg")
+        })
     }
-
 })
