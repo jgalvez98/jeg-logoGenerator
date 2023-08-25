@@ -30,7 +30,11 @@
   
   ## TestVideo
 
-<video src="challene10-videocompressed.mp4" controls title="Title"></video>
+
+https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/84dd23c7-2064-48c8-9726-d7cb28c1874b
+
+
+
   
   ## License
   
