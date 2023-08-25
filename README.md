@@ -4,20 +4,14 @@
 
   ## Description
   
-   Generate a logo with ease using node in your terminal, some examples :
-   
-<img width="160" alt="triangle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/d6b0891c-a1a5-4a0b-99e6-2838ba5bc9f4">
-
-<img width="127" alt="circle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/7e2a2c0b-1d98-4aaf-b54d-e8623cffa47d">
-
-<img width="227" alt="square" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/c0f4eb34-fc73-4ec8-a1af-3db3d986735e">
-
+   Generate a logo with ease using node in your terminal
   
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [TestVideo](#testVideo)
+  - [Examples](#examples)
   - [License](#license)
   - [Questions](#questions)
   
@@ -42,7 +36,12 @@ https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/84dd23c7-2064-48c
 
 
 
-  
+  ## examples
+  <img width="160" alt="triangle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/d6b0891c-a1a5-4a0b-99e6-2838ba5bc9f4">
+  <img width="127" alt="circle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/7e2a2c0b-1d98-4aaf-b54d-e8623cffa47d">
+  <img width="227" alt="square" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/c0f4eb34-fc73-4ec8-a1af-3db3d986735e">
+
+
   ## License
   
    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
