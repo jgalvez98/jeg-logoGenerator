@@ -4,9 +4,7 @@
 
   ## Description
   
-   Generate a logo with ease using node in your terminal.
-   // add image //
-
+   Generate a logo with ease using node in your terminal, some examples :![Triangle](triangle-svgExample.png) ![square](square-svgExample.png) ![circle](circle-svgExample.png)
   
   ## Table of Contents
   - [Installation](#installation)
@@ -32,7 +30,7 @@
   
   ## TestVideo
 
-https://clipchamp.com/watch/njU5ipPcp40
+<video src="challene10-videocompressed.mp4" controls title="Title"></video>
   
   ## License
   
