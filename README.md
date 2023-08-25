@@ -5,8 +5,11 @@
   ## Description
   
    Generate a logo with ease using node in your terminal, some examples :
+   
 <img width="160" alt="triangle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/d6b0891c-a1a5-4a0b-99e6-2838ba5bc9f4">
+
 <img width="127" alt="circle" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/7e2a2c0b-1d98-4aaf-b54d-e8623cffa47d">
+
 <img width="227" alt="square" src="https://github.com/jgalvez98/jeg-logoGenerator/assets/71774194/c0f4eb34-fc73-4ec8-a1af-3db3d986735e">
 
   
