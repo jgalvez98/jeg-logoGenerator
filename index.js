@@ -8,11 +8,11 @@ const Triangle=require("./lib/Triangle")
 inquirer
 .prompt([{
     type:"input",
-    message:"Enter SVG text",
+    message:"Enter SVG text(up to three characters)",
     name:"text"
 },{
     type:"list",
-    message:"Enter text color",
+    message:"Enter color text(OR a hexadecimal number)",
     name:"textColor",
     choices:["blue","red","black","yellow",""]
 },{
@@ -22,7 +22,7 @@ inquirer
     choices:["circle","square","triangle"]
 },{
     type:"list",
-    message:"enter shape color",
+    message:"enter shape color(OR a hexadecimal number)",
     name:"shapeColor",
     choices:["blue","yellow","red","black","white"]
 
@@ -44,6 +44,14 @@ inquirer
         square.setText(response.text)
         square.setShapeColor(response.shapeColor)
         fs.writeFile("./examples/logo.svg", square.render(),(err)=>{
+            console.log("Generated logo.svg")
+        })
+    }else if (response.shape==="triangle"){
+        const triangle = new Triangle()
+        triangle.setColor(response.textColor)
+        triangle.setText(response.text)
+        triangle.setShapeColor(response.shapeColor)
+        fs.writeFile("./examples/logo.svg", triangle.render(),(err)=>{
             console.log("Generated logo.svg")
         })
     }
